@@ -130,7 +130,7 @@ Todas las páginas de tu proyecto tendrán una imagen random de background. Camb
 - `Math.random()` para generar aleatoriedad
 - En esta página `https://unsplash.com/es` podrás sacar imagenes de calidad de manera gratuíta. Puedes elegir otras páginas sin problema. O directamente desde goolge. Usa 10 minagenes mínimo para darle más dinamismo
 - Estilos en línea que añadiremos con JS. 
-  - Este puede ser un ejemplo: `document.body.style.backgroundColor = "url('mi-imagen.jpg')"`;
+  - Este puede ser un ejemplo: `document.body.style.backgroundImage = "url('mi-imagen.jpg')"`;
 - `setInterval` para darle ese tiempo de cambio
 
 ### PISTAS Y CONSEJOS
