@@ -113,3 +113,58 @@ table {
 	font-size: 20px;
 	margin-top: 15px;
 }
+
+/* Temperatura */
+#contenedor-tiempo{
+	color: white;
+}
+
+/* LINKS */
+
+#tituloLink,#urlLink{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.eliminar-link{
+	padding: 11px;
+	border: none;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+#btnLink{
+	padding: 11px;
+	border: none;
+	border-radius: 10px;
+	background-color: #007BFF;
+	color: white;
+	cursor: pointer;
+}
+
+#listaLinks{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.links{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	background-color: #fafafa;
+	width: 10%;
+	margin-right: 15px;
+}
+
+.links a{
+	text-decoration: none;
+	color: #007BFF;
+}
