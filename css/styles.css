@@ -44,10 +44,13 @@ table {
 /*CSS*/
 
 /*MENU PRINCIPAL*/
+
 .menu_principal{
 	display: flex;
-	background-color: aqua;
+	background-color: rgb(56, 53, 53);
 	justify-content: center;
+	border-radius: 50%;
+	width: 100%;
 }
 
 .menu_principal li{
@@ -59,7 +62,7 @@ table {
 	text-decoration: none;
 	font-size: 25px;
 	font-family: Arial, Helvetica, sans-serif;
-	color: black;
+	color: white;
 }
 
 .menu_principal li a:hover{
@@ -80,34 +83,43 @@ table {
 /* RELOJ Y FECHA */
 
 .contendor-reloj{
-	width: 300px;
-	height: 300px;
+	width: 100%;
+	height: 200px;
 	align-items: center;
 	align-content: center;
-	margin-left: 60px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .contendor-reloj #reloj{
 	font-size: 60px;
-	color: yellow;
+	color: red;
 	text-align: center;
 }
 
 .contendor-reloj #fecha{
 	font-size: 60px;
-	color: yellow;
+	color: rgb(97, 16, 16);
 	text-align: center;
 }
 
 .contendor-reloj #mensaje{
 	margin-top: 15px;
 	font-size: 25px;
-	color: chartreuse;
+	color: rgb(238, 103, 103);
 	text-align: center;
 	font-weight: bold;
 }
 
 /* Generador de Contraseña */
+.contenedor-pass, h2 {
+	color: white;
+	font-size: 35px;
+}
+
+.contenedor-pass {
+	text-align: center;
+}
+
 #passGenerada{
 	color: yellow;
 	font-size: 20px;
@@ -115,11 +127,72 @@ table {
 }
 
 /* Temperatura */
-#contenedor-tiempo{
+#contenedor-tiempo{	
+	float: inline-end;
 	color: white;
+	width: 700px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position:relative
+	
 }
 
+#ciudad{
+	text-align:center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+#horaActual{
+	text-align:center;
+}
+
+#tempMaxima{
+	position: absolute;
+	left: 500px;
+	top:  40px;
+
+
+
+}
+#tempMinimo{
+	position: absolute;
+	left: 500px;
+	top:  60px;
+}
+#precipitacion{
+	position: absolute;
+	left: 500px;
+	top:  80px;
+
+}
+#humedadpromedio{
+	position: absolute;
+	left: 500px;
+	top:  100px;
+
+}
+#velocidadpromedio{
+	position: absolute;
+	left: 500px;
+	top:  120px;
+
+}
+#plantillaTempHoras{
+    display: flex;
+    overflow-x: auto; 
+    width: 100%;
+    margin-top: 60px;
+	gap: 10px;
+}
+
+
+
+
 /* LINKS */
+
+#contenedor-links {
+	width: 70%;
+	position: absolute;
+}
 
 #tituloLink,#urlLink{
 	padding: 10px;

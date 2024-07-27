@@ -4,11 +4,16 @@ document.addEventListener('DOMContentLoaded', () =>{
     let cuerpo = document.getElementById('cuerpo');
 
     let fotos = [
-        "./img/fondo1.PNG",
-        "./img/fondo2.PNG",
-        "./img/fondo3.PNG",
-        "./img/fondo4.PNG",
-        "./img/fondo5.PNG",
+        "./img/1.webp",
+        "./img/2.jpg",
+        "./img/3.webp",
+        "./img/4.jpg",
+        "./img/5.jpg",
+        "./img/6.webp",
+        "./img/7.jpg",
+        "./img/8.avif",
+        "./img/9.jpg",
+        "./img/10.jpg",
     ];
 
     function cambiarFondo(){
